@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Messages</title>
+  <script type="module" src="message.js"></script>
+</head>
+<body>
+<div style="background:#fcd6e2;padding:10px;text-align:center;">
+  <a href="index.html" style="margin:10px;">Home</a>
+  <a href="profile.html" style="margin:10px;">Profile</a>
+  <a href="post.html" style="margin:10px;">Post Ad</a>
+  <a href="inbox.html" style="margin:10px;">Inbox</a>
+  <a href="message.html" style="margin:10px;">Messages</a>
+</div>
+  <h2>Send Message</h2>
+  <form id="messageForm">
+    <input type="text" id="fromUser" placeholder="From (your username)" required><br>
+    <input type="text" id="toUser" placeholder="To (recipient username)" required><br>
+    <textarea id="content" placeholder="Your message" required></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+  <div id="status"></div>
+</body>
+</html>

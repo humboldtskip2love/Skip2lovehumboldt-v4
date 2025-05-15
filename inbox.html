@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inbox</title>
+  <script type="module" src="inbox.js"></script>
+</head>
+<body>
+<div style="background:#fcd6e2;padding:10px;text-align:center;">
+  <a href="index.html" style="margin:10px;">Home</a>
+  <a href="profile.html" style="margin:10px;">Profile</a>
+  <a href="post.html" style="margin:10px;">Post Ad</a>
+  <a href="inbox.html" style="margin:10px;">Inbox</a>
+  <a href="message.html" style="margin:10px;">Messages</a>
+</div>
+  <h2>Your Inbox</h2>
+  <input type="text" id="username" placeholder="Enter your username to view messages">
+  <button onclick="loadInbox()">Load Inbox</button>
+  <ul id="messages"></ul>
+</body>
+</html>

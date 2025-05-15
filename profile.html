@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Your Profile</title>
+  <script type="module" src="profile.js"></script>
+</head>
+<body>
+<div style="background:#fcd6e2;padding:10px;text-align:center;">
+  <a href="index.html" style="margin:10px;">Home</a>
+  <a href="profile.html" style="margin:10px;">Profile</a>
+  <a href="post.html" style="margin:10px;">Post Ad</a>
+  <a href="inbox.html" style="margin:10px;">Inbox</a>
+  <a href="message.html" style="margin:10px;">Messages</a>
+</div>
+  <h2>Create Profile</h2>
+  <form id="profileForm">
+    <input type="text" id="username" placeholder="Username" required><br>
+    <input type="text" id="age" placeholder="Age"><br>
+    <input type="text" id="location" placeholder="Location"><br>
+    <textarea id="bio" placeholder="Short bio"></textarea><br>
+    <input type="text" id="img" placeholder="Profile Image URL"><br>
+<select id="userType"><option value="guest">Guest</option><option value="user">User</option><option value="premium">Premium</option></select><br>
+<button type="submit">Save Profile</button>
+  </form>
+  <div id="status"></div>
+</body>
+</html>
